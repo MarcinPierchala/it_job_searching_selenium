@@ -1,0 +1,1 @@
+C:/Users/Asus/AppData/Local/Programs/Python/Python39/python.exe c:/Python/Selenium_excercises/exc_1/it_job_looking.py
