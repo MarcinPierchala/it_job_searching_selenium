@@ -9,7 +9,6 @@ time.sleep(2)
 
 accept_all = driver.find_element_by_xpath('//*[@id="gp-cookie-agreements"]/div/div/div[1]/div[3]/button').click()
 
-
 time.sleep(2)
 
 click_ok = driver.find_element_by_xpath("/html/body/div[1]/div/header/div[4]/button[2]").click()
@@ -32,3 +31,4 @@ time.sleep(1)
 
 junior_select = driver.find_element_by_xpath('//*[@id="root"]/div[2]/div[1]/div[1]/div/div[2]/form/div[5]/div[2]/ul/li[3]/label/span').click()
 
+#now i`m looking for a job :-)
