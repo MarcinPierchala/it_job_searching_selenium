@@ -53,11 +53,8 @@ more_places = driver.find_element_by_xpath('//*[@id="root"]/div[2]/div[1]/div[1]
 
 time.sleep(1)
 
-#bielsko_select = driver.find_elements_by_xpath('/html/body/div[2]/div[2]/div[1]/div[1]/div/div[2]/form/div[1]/ul/li[12]/label/span').click()
 bielsko_lab_select = driver.find_element_by_xpath('//*[@id="root"]/div[2]/div[1]/div[1]/div/div[2]/form/div[1]/ul/li[12]').click()
 
 time.sleep(1)
-
-#select_best_job = driver.find_elements_by_xpath('//*[@id="root"]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/a').click()
 
 select_best_job_link = driver.find_element_by_css_selector('#root > div.Containerstyles__Wrapper-sc-1o1mobh-0.erRjCB > div.Gridstyles__Wrapper-sc-2y197l-0.gonHbX > div.Gridstyles__Wrapper-sc-2y197l-0.ebEInO > div:nth-child(3) > div:nth-child(1) > div.JobOfferstyles__TitleWrapper-sc-1rq6ue2-3.bFfUKI > a > h3').click()
