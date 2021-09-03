@@ -9,10 +9,6 @@ time.sleep(2)
 
 accept_all = driver.find_element_by_xpath('//*[@id="gp-cookie-agreements"]/div/div/div[1]/div[3]/button').click()
 
-time.sleep(2)
-
-click_ok = driver.find_element_by_xpath("/html/body/div[1]/div/header/div[4]/button[2]").click()
-
 time.sleep(1)
 
 driver.maximize_window()
